@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chareset="UTF-8">
+        <meta name="viewport" content="=width=device-width, initial-scale=1.0">
+        <title>HTML Lanjutan</title>
+        <style>
+            form p > label {
+                display: inline-block;
+                width: 100px;
+            }
+            form input[type="text"], form textarea {
+                border: 1px solid #197a43;
+            }
+            form input[type="submit"] {
+                border: 1px solid #197a43;
+                background-color: #197a43;
+                color: #ffffff;
+                font-weight: bold;
+                padding: 5px 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Membuat Form</h1>
+        </header>
+        <form action="proses.php" method="post">
+            <fieldset>
+                <legend>Data Pelangan</legend>
+                <p>
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama">
+                </p>
+                <p>
+                    <label for="alamat">Alamat</label>
+                    <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+                </p>
+                <p>
+                    <label>Jenis Kelamin</label>
+                    <input id="jk_l" type="radio" name="Kelamin" value="L" /><label for="jk_l">Laki-laki</label>
+                    <input id="jk_l" type="radio" name="Kelamin" value="L" /><label for="jk_l">Perempuan</label>
+                </p>
+                <p><input type="submit" value="Login"></p>
+                <p>
+                    <label for="jurusan">Pilih Jurusan</label>
+                <select id="jurusan" name="jurusan">
+                    <option value="TI">Teknik Informatika</option>
+                    <option value="TI">Teknik Industri</option>
+                    <option value="TL">Teknik Lingkungan</option>
+                </select>
+                </p>
+
+  <label for="hobi">Pilih Hobi</label>
+  <select id="hobi" name="hobi" multiple>
+    <option value="coding">Coding</option>
+    <option value="design">Desain</option>
+    <option value="gaming">Gaming</option>
+    <option value="reading">Membaca</option>
+  </select>
+</p>
+            </fieldset>
+        </form>
+    </body>
+</html>
