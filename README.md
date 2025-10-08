@@ -6,8 +6,11 @@ README ini sudah disusun agar mudah dibaca, informatif, dan cocok diunggah ke Gi
 # 🌐 Praktikum 3 – HTML Lanjutan
 
 **Nama:** Muhammad Aziz Tri Ramadhan
+
 **NIM:** 312410380
+
 **Kelas:** TI.24.A3
+
 **Mata Kuliah:** Pemrograman Web
 
 ---
